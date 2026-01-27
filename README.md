@@ -41,11 +41,4 @@ The dashboard serves as a strategic tool for stakeholders to:
 2.  **Optimize Stock:** Monitor inventory movement to prevent stockouts or overstocking.
 3.  **Regional Growth:** Analyze geographical trends to allocate resources more effectively.
 
----
 
-## 📸 Dashboard Preview
-*(Optional: Add a screenshot of your dashboard here!)*
-## 📂 How to View
-1. Download the `.pbix` file from this repository.
-2. Open it using **Power BI Desktop**.
-3. Explore the interactive visuals and filters.
