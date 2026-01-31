@@ -1,44 +1,103 @@
-# Sales Performance & Inventory Dashboard | Power BI
+📊 Electronic Sales Performance Analysis
+📌 Project Overview
 
-![Power BI](https://img.shields.io/badge/Data_Visualization-Power_BI-yellow)
-![Data Analysis](https://img.shields.io/badge/Analysis-Inventory-blue)
-![DAX](https://img.shields.io/badge/Logic-DAX-orange)
+This project focuses on analyzing electronic product sales data using Excel, SQL, and Power BI to uncover meaningful business insights. The objective is to understand sales trends, regional performance, product profitability, and overall business growth to support data-driven decision-making.
 
-## 📌 Project Overview
-This project focuses on analyzing sales performance and inventory movement through an interactive Power BI dashboard. The primary goal is to empower management with data-driven insights to track business health, understand product demand, and optimize inventory decisions.
+🛠 Tools & Technologies Used
 
-## 🚀 Key Features
+Excel – Data cleaning, preprocessing, and initial analysis
 
-### 💰 Sales Performance Tracking
-* **Dynamic KPIs:** Real-time monitoring of **Total Sales ($16M)**, **Total Profit ($4M)**, and **Transaction Volume (797)**.
-* **Business Health:** Instant snapshots of revenue and profitability trends.
+SQL – Data querying, aggregation, and analysis
 
-### 📦 Inventory & Brand Analysis
-* **Stock Movement:** A "Quantity by Brand" analysis to identify high-turnover products.
-* **Top Performer:** Analysis identified **Samsung** as the leading brand with **476 units sold**.
+Power BI – Interactive dashboard creation and data visualization
 
-### 🖱️ Interactive Experience
-* **Supervisor Slicers:** Custom slicers featuring profile images for personalized performance tracking.
-* **Geographic Mapping:** Drill down into regional sales performance via an interactive map.
+📂 Dataset Information
 
-### 📊 Category Level Insights
-* **Sales Distribution:** Visualized category performance using intuitive pie charts.
-* **Key Finding:** **Monitors and CPUs** are the powerhouse categories, contributing over **37% of total sales**.
+Electronic sales dataset containing transactional sales records
 
----
+Key columns include:
 
-## 🛠️ Tools & Skills Used
-* **Power BI:** Dashboard design and report authoring.
-* **Data Modeling & DAX:** Created calculated measures and columns for advanced business logic.
-* **Data Visualization:** Applied best practices in UI/UX for data storytelling.
-* **Inventory Analysis:** Interpreting stock levels versus sales velocity.
+Order Date
 
----
+Product Name
 
-## 📈 Business Impact
-The dashboard serves as a strategic tool for stakeholders to:
-1.  **Identify High-Performers:** Quickly spot which brands and categories drive the most revenue.
-2.  **Optimize Stock:** Monitor inventory movement to prevent stockouts or overstocking.
-3.  **Regional Growth:** Analyze geographical trends to allocate resources more effectively.
+Category
 
+Region
+
+Quantity
+
+Sales
+
+Cost
+
+Profit
+
+Dataset was cleaned and transformed before analysis
+
+🧹 Data Cleaning Process
+
+The following data cleaning and preparation steps were performed:
+
+Removed null and duplicate records
+
+Standardized column names for consistency
+
+Corrected date formats
+
+Created calculated fields such as Revenue and Profit
+
+Validated data accuracy using SQL queries
+
+🧮 SQL Analysis Performed
+
+SQL was used to analyze the dataset and answer key business questions:
+
+Total revenue and total profit calculation
+
+Region-wise sales and profit analysis
+
+Category-wise performance comparison
+
+Identification of top-selling products
+
+Monthly and yearly sales trend analysis
+
+📈 Power BI Dashboard Features
+
+The Power BI dashboard provides an interactive view of sales performance:
+
+KPI Cards (Total Sales, Total Profit, Total Orders)
+
+Sales trend analysis over time
+
+Region-wise and category-wise performance breakdown
+
+Top 5 products by revenue
+
+Interactive slicers for dynamic filtering
+
+🔍 Key Insights
+
+The Electronics category contributes the highest share of total revenue
+
+Certain regions consistently outperform others in sales and profitability
+
+Some high-selling products have lower profit margins
+
+Seasonal trends significantly impact monthly sales performance
+
+📁 Project Files Structure
+
+Dataset – CSV / Excel files
+
+SQL Queries – Used for data analysis
+
+Power BI Dashboard – .pbix file
+
+Dashboard Screenshots – Visual previews
+
+✅ Conclusion
+
+This project demonstrates an end-to-end data analytics workflow, from data cleaning and SQL analysis to building interactive dashboards in Power BI. It highlights my ability to transform raw data into actionable business insights.
 
